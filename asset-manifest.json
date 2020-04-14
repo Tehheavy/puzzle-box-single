@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/puzzle-box-single/static/css/main.5d72fbc6.chunk.css",
+    "main.js": "/puzzle-box-single/static/js/main.df5359e5.chunk.js",
+    "main.js.map": "/puzzle-box-single/static/js/main.df5359e5.chunk.js.map",
+    "runtime-main.js": "/puzzle-box-single/static/js/runtime-main.050333be.js",
+    "runtime-main.js.map": "/puzzle-box-single/static/js/runtime-main.050333be.js.map",
+    "static/js/2.67e0af72.chunk.js": "/puzzle-box-single/static/js/2.67e0af72.chunk.js",
+    "static/js/2.67e0af72.chunk.js.map": "/puzzle-box-single/static/js/2.67e0af72.chunk.js.map",
+    "index.html": "/puzzle-box-single/index.html",
+    "precache-manifest.dc05344c4f4bfbf5d2a557535c2dce35.js": "/puzzle-box-single/precache-manifest.dc05344c4f4bfbf5d2a557535c2dce35.js",
+    "service-worker.js": "/puzzle-box-single/service-worker.js",
+    "static/css/main.5d72fbc6.chunk.css.map": "/puzzle-box-single/static/css/main.5d72fbc6.chunk.css.map",
+    "static/js/2.67e0af72.chunk.js.LICENSE.txt": "/puzzle-box-single/static/js/2.67e0af72.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/puzzle-box-single/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.050333be.js",
+    "static/js/2.67e0af72.chunk.js",
+    "static/css/main.5d72fbc6.chunk.css",
+    "static/js/main.df5359e5.chunk.js"
+  ]
+}
