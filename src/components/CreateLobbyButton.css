@@ -1,0 +1,17 @@
+.createLobbyButton-class {
+    background: radial-gradient(circle, rgba(35, 62, 36, 1) 0%, rgba(10, 126, 10, 1) 25%, rgba(193, 255, 195, 1) 100%);
+    border-radius: 500px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.createLobbyButton-class p {
+    margin-top: 15%;
+}
+
+.createLobbyButton-class:hover {
+    background: radial-gradient(circle, rgba(193, 255, 195, 1) 0%, rgba(10, 126, 10, 1) 25%, rgba(35, 62, 36, 1) 100%);
+}

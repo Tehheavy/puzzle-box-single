@@ -1,0 +1,16 @@
+.selectButton{
+    height: 20vh;
+    width: 20vw;
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+.flex-game{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Register-class{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

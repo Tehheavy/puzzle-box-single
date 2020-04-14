@@ -1,0 +1,8 @@
+.Lobby{
+    border-radius: 25px;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 20px;
+    background-color: aliceblue;
+    min-height: 50vh;
+    min-width: 50vw;
+}
