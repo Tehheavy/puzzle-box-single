@@ -278,7 +278,7 @@ function Game(props) {
 
             <div style={{ display: 'flex', flexDirection: 'row', height: height, width: width }} onKeyPress={e => { handleKeyPress() }}>
 
-                <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: "center" }}>
+                <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: "center"}}>
                     {array}
                 </div>
 

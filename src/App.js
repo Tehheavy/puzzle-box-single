@@ -121,7 +121,7 @@ function App({ SocketStore }) {
     return (
       <div className="App">
         <div className="Lobby-class">
-           <Game size={size} random={random} isSolvable={isSolvable}imageUrl={image}></Game>
+           <Game size={size} random={random} isSolvable={isSolvable} imageUrl={image}></Game>
         </div>
       </div>
     );
