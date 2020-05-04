@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4a7c2ba8db8728c64c7090313f54fe17",
+    "revision": "3a4a18142e0e759c729b73adaacb4a51",
     "url": "/puzzle-box-single/index.html"
   },
   {
-    "revision": "0699b3121a799a52445c",
+    "revision": "369eded5ce28838247d3",
     "url": "/puzzle-box-single/static/css/main.5d72fbc6.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/puzzle-box-single/static/js/2.67e0af72.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0699b3121a799a52445c",
-    "url": "/puzzle-box-single/static/js/main.0ad351f1.chunk.js"
+    "revision": "369eded5ce28838247d3",
+    "url": "/puzzle-box-single/static/js/main.88dcc2e2.chunk.js"
   },
   {
     "revision": "b67c2bc5ce2fd1f67a92",

@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/puzzle-box-single/static/css/main.5d72fbc6.chunk.css",
-    "main.js": "/puzzle-box-single/static/js/main.0ad351f1.chunk.js",
-    "main.js.map": "/puzzle-box-single/static/js/main.0ad351f1.chunk.js.map",
+    "main.js": "/puzzle-box-single/static/js/main.88dcc2e2.chunk.js",
+    "main.js.map": "/puzzle-box-single/static/js/main.88dcc2e2.chunk.js.map",
     "runtime-main.js": "/puzzle-box-single/static/js/runtime-main.050333be.js",
     "runtime-main.js.map": "/puzzle-box-single/static/js/runtime-main.050333be.js.map",
     "static/js/2.67e0af72.chunk.js": "/puzzle-box-single/static/js/2.67e0af72.chunk.js",
     "static/js/2.67e0af72.chunk.js.map": "/puzzle-box-single/static/js/2.67e0af72.chunk.js.map",
     "index.html": "/puzzle-box-single/index.html",
-    "precache-manifest.b106e39226a193abe19dd727ba064774.js": "/puzzle-box-single/precache-manifest.b106e39226a193abe19dd727ba064774.js",
+    "precache-manifest.262a322e1a49295c0be1667e064d1db8.js": "/puzzle-box-single/precache-manifest.262a322e1a49295c0be1667e064d1db8.js",
     "service-worker.js": "/puzzle-box-single/service-worker.js",
     "static/css/main.5d72fbc6.chunk.css.map": "/puzzle-box-single/static/css/main.5d72fbc6.chunk.css.map",
     "static/js/2.67e0af72.chunk.js.LICENSE.txt": "/puzzle-box-single/static/js/2.67e0af72.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.050333be.js",
     "static/js/2.67e0af72.chunk.js",
     "static/css/main.5d72fbc6.chunk.css",
-    "static/js/main.0ad351f1.chunk.js"
+    "static/js/main.88dcc2e2.chunk.js"
   ]
 }
