@@ -13,13 +13,13 @@ function Game(props) {
         `;
 
     const handleChangeSize = (newHeight, newWidth) => {
-        console.log('changed size')
+        // console.log('changed size')
         setHeight(newHeight)
         setWidth(newWidth)
     }
     const handleKeyPress = (event) => {
-        console.log('USER CLICKED:', event.key)
-        console.log('array:', array)
+        // console.log('USER CLICKED:', event.key)
+        // console.log('array:', array)
         if (event.key === 'ArrowDown') {
             // console.log('key ArrowDown')
             // console.log('current pos:', position)
@@ -133,7 +133,7 @@ function Game(props) {
                 indexLocation=j     
             }
         }
-        console.log(array[indexLocation].key)
+        // console.log(array[indexLocation].key)
         let newPosY = Math.floor((indexLocation) / props.size);
         let newPosX = indexLocation % props.size;
         // console.log('X,Y:', newPosX, ',', newPosY)
@@ -145,7 +145,7 @@ function Game(props) {
             let tempValue = oldArray[indexLocation]
             oldArray[indexLocation] = oldArray[position];
             oldArray[position] = tempValue;
-            console.log('SWAP SUCCESS')
+            // console.log('SWAP SUCCESS')
             setPosition(prev => (indexLocation));
             setArray(prev => oldArray);
             checkWin(oldArray);
@@ -156,7 +156,7 @@ function Game(props) {
             let tempValue = oldArray[indexLocation]
             oldArray[indexLocation] = oldArray[position];
             oldArray[position] = tempValue;
-            console.log('SWAP SUCCESS')
+            // console.log('SWAP SUCCESS')
             setPosition(prev => (indexLocation));
             setArray(prev => oldArray);
             checkWin(oldArray);
@@ -167,7 +167,7 @@ function Game(props) {
             let tempValue = oldArray[indexLocation]
             oldArray[indexLocation] = oldArray[position];
             oldArray[position] = tempValue;
-            console.log('SWAP SUCCESS')
+            // console.log('SWAP SUCCESS')
             setPosition(prev => (indexLocation));
             setArray(prev => oldArray);
             checkWin(oldArray);
@@ -178,16 +178,17 @@ function Game(props) {
             let tempValue = oldArray[indexLocation]
             oldArray[indexLocation] = oldArray[position];
             oldArray[position] = tempValue;
-            console.log('SWAP SUCCESS')
+            // console.log('SWAP SUCCESS')
             setPosition(prev => (indexLocation));
             setArray(prev => oldArray);
             checkWin(oldArray);
             // findPos(event)
         } 
-        console.log('handleClick array:',array,indexLocation)
+        // console.log('handleClick array:',array,indexLocation)
       }
+     
     const initArray = (size) => {
-        console.log('initArray size:', size)
+        // console.log('initArray size:', size)
         let temp = []
         for (let i = 0; i < size * size; i++) {
             // setArray([...array,<div>test</div>], ()=>{console.log('quadraped',array)})
@@ -213,20 +214,26 @@ function Game(props) {
         for(let i=0;i<size*size-1;i++){
             RandomArray.push(temp[props.random[i]]);
         }
+        console.log(props.random[0]+1,props.random[1]+1,props.random[2]+1,props.random[3]+1,props.random[4]+1,props.random[5]+1,props.random[6]+1,props.random[7]+1)
         RandomArray.push(temp[size*size-1]);
         // console.log('random arr is:',RandomArray)
         setArray(RandomArray);
         // console.log('setting array to:', temp)
     }
     const checkWin = (value) => {
-        console.log('check win:',value)
-        console.log(value[0])
+        // console.log('check win:',value)
+        // console.log(value[0])
         let test=0;
+        let newArr=[]
+        for(let i=0;i<value.length;i++){
+            newArr.push(value[i].key)
+        }
+        console.log('iS solvable now?:',props.isSolvable(props.size,newArr))
         for(let i=0;i<props.size*props.size-1;i++){
             if(value[i].key==i){
                 test++;
             }
-            console.log('TEST IS ',test)
+            // console.log('TEST IS ',test)
         }
         if(test==(props.size*props.size-1)){
             alert("WIN!!")
@@ -234,7 +241,7 @@ function Game(props) {
     }
 
     useEffect(() => {
-        console.log('refresh')
+        // console.log('refresh')
         if (array.length === 0){
             
             initArray(props.size);
@@ -247,15 +254,15 @@ function Game(props) {
             }
         }
         document.addEventListener("keydown", handleKeyPress, false);
-        console.log('created keydown event')
+        // console.log('created keydown event')
         return () => {
             document.removeEventListener("keydown", handleKeyPress, false);
             console.log('removed keydown event')
             for(let i=0;i<props.size*props.size;i++){
                 // console.log(document.getElementById(i),'testtest')
-                console.log('deleting')
+                // console.log('deleting')
                 if(document.getElementById(i)){
-                    console.log('exist')
+                    // console.log('exist')
                     document.getElementById(i).removeEventListener('click',handleClick)
                 }
             }
