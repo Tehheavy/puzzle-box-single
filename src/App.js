@@ -78,6 +78,7 @@ function App({ SocketStore }) {
       tempArray.sort(() => Math.random() - 0.5);
       console.log(tempArray)
       console.log('is solvable:',isSolvable(value,tempArray))
+      console.log('is solvable2:',isSolvable2(value,tempArray))
       
     }
     while(!isSolvable2(value,tempArray))
@@ -86,11 +87,10 @@ function App({ SocketStore }) {
     console.log('sum inversions2:',sumInversions2(tempArray))
     console.log('is solvable:',isSolvable(value,tempArray))
     console.log('is solvable2:',isSolvable2(value,tempArray))
-    if(isSolvable(value,tempArray)){
+    if(isSolvable2(value,tempArray)){
       setRandom(tempArray);
       setSize(value);
       setValid(true)
-
     }
     // sumInversions([6,3,2,5,4,7,1,0])
 
