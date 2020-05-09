@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/puzzle-box-single/static/css/main.5d72fbc6.chunk.css",
-    "main.js": "/puzzle-box-single/static/js/main.95399470.chunk.js",
-    "main.js.map": "/puzzle-box-single/static/js/main.95399470.chunk.js.map",
-    "runtime-main.js": "/puzzle-box-single/static/js/runtime-main.050333be.js",
-    "runtime-main.js.map": "/puzzle-box-single/static/js/runtime-main.050333be.js.map",
-    "static/js/2.67e0af72.chunk.js": "/puzzle-box-single/static/js/2.67e0af72.chunk.js",
-    "static/js/2.67e0af72.chunk.js.map": "/puzzle-box-single/static/js/2.67e0af72.chunk.js.map",
-    "index.html": "/puzzle-box-single/index.html",
-    "precache-manifest.ec70306ccede974960d52fce9b1f34b3.js": "/puzzle-box-single/precache-manifest.ec70306ccede974960d52fce9b1f34b3.js",
-    "service-worker.js": "/puzzle-box-single/service-worker.js",
-    "static/css/main.5d72fbc6.chunk.css.map": "/puzzle-box-single/static/css/main.5d72fbc6.chunk.css.map",
-    "static/js/2.67e0af72.chunk.js.LICENSE.txt": "/puzzle-box-single/static/js/2.67e0af72.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/puzzle-box-single/static/media/logo.5d5d9eef.svg"
+    "main.css": "/n-puzzle/static/css/main.5d72fbc6.chunk.css",
+    "main.js": "/n-puzzle/static/js/main.06abd6d4.chunk.js",
+    "main.js.map": "/n-puzzle/static/js/main.06abd6d4.chunk.js.map",
+    "runtime-main.js": "/n-puzzle/static/js/runtime-main.d3f22abd.js",
+    "runtime-main.js.map": "/n-puzzle/static/js/runtime-main.d3f22abd.js.map",
+    "static/js/2.01a3f1cd.chunk.js": "/n-puzzle/static/js/2.01a3f1cd.chunk.js",
+    "static/js/2.01a3f1cd.chunk.js.map": "/n-puzzle/static/js/2.01a3f1cd.chunk.js.map",
+    "index.html": "/n-puzzle/index.html",
+    "precache-manifest.405614c7354b5767014ec5340b78d61a.js": "/n-puzzle/precache-manifest.405614c7354b5767014ec5340b78d61a.js",
+    "service-worker.js": "/n-puzzle/service-worker.js",
+    "static/css/main.5d72fbc6.chunk.css.map": "/n-puzzle/static/css/main.5d72fbc6.chunk.css.map",
+    "static/js/2.01a3f1cd.chunk.js.LICENSE.txt": "/n-puzzle/static/js/2.01a3f1cd.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/n-puzzle/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.050333be.js",
-    "static/js/2.67e0af72.chunk.js",
+    "static/js/runtime-main.d3f22abd.js",
+    "static/js/2.01a3f1cd.chunk.js",
     "static/css/main.5d72fbc6.chunk.css",
-    "static/js/main.95399470.chunk.js"
+    "static/js/main.06abd6d4.chunk.js"
   ]
 }
