@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/puzzle-box-single/static/css/main.5d72fbc6.chunk.css",
-    "main.js": "/puzzle-box-single/static/js/main.95399470.chunk.js",
-    "main.js.map": "/puzzle-box-single/static/js/main.95399470.chunk.js.map",
-    "runtime-main.js": "/puzzle-box-single/static/js/runtime-main.050333be.js",
-    "runtime-main.js.map": "/puzzle-box-single/static/js/runtime-main.050333be.js.map",
-    "static/js/2.67e0af72.chunk.js": "/puzzle-box-single/static/js/2.67e0af72.chunk.js",
-    "static/js/2.67e0af72.chunk.js.map": "/puzzle-box-single/static/js/2.67e0af72.chunk.js.map",
+    "main.css": "/puzzle-box-single/static/css/main.5f361e03.chunk.css",
+    "main.js": "/puzzle-box-single/static/js/main.0e259e76.chunk.js",
+    "main.js.map": "/puzzle-box-single/static/js/main.0e259e76.chunk.js.map",
+    "runtime-main.js": "/puzzle-box-single/static/js/runtime-main.175e4d2e.js",
+    "runtime-main.js.map": "/puzzle-box-single/static/js/runtime-main.175e4d2e.js.map",
+    "static/js/2.0f47ca7f.chunk.js": "/puzzle-box-single/static/js/2.0f47ca7f.chunk.js",
+    "static/js/2.0f47ca7f.chunk.js.map": "/puzzle-box-single/static/js/2.0f47ca7f.chunk.js.map",
     "index.html": "/puzzle-box-single/index.html",
-    "precache-manifest.ec70306ccede974960d52fce9b1f34b3.js": "/puzzle-box-single/precache-manifest.ec70306ccede974960d52fce9b1f34b3.js",
+    "precache-manifest.84e706d0e8fc2082253f27fda18a5955.js": "/puzzle-box-single/precache-manifest.84e706d0e8fc2082253f27fda18a5955.js",
     "service-worker.js": "/puzzle-box-single/service-worker.js",
-    "static/css/main.5d72fbc6.chunk.css.map": "/puzzle-box-single/static/css/main.5d72fbc6.chunk.css.map",
-    "static/js/2.67e0af72.chunk.js.LICENSE.txt": "/puzzle-box-single/static/js/2.67e0af72.chunk.js.LICENSE.txt",
+    "static/css/main.5f361e03.chunk.css.map": "/puzzle-box-single/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.0f47ca7f.chunk.js.LICENSE.txt": "/puzzle-box-single/static/js/2.0f47ca7f.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/puzzle-box-single/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.050333be.js",
-    "static/js/2.67e0af72.chunk.js",
-    "static/css/main.5d72fbc6.chunk.css",
-    "static/js/main.95399470.chunk.js"
+    "static/js/runtime-main.175e4d2e.js",
+    "static/js/2.0f47ca7f.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.0e259e76.chunk.js"
   ]
 }
